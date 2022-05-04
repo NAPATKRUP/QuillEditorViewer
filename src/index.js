@@ -36,7 +36,6 @@ import QuillEditor from "./components/QuillEditor";
 import QuillViewer from "./components/QuillViewer";
 
 const install = (Vue) => {
-  console.log("Installing...");
   // Set Up
   Quill.register("modules/magicUrl", MagicUrl);
   Quill.register("modules/imageUploader", ImageUploader);
